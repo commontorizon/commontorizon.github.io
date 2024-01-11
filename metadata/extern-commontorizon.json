@@ -3,53 +3,32 @@
     {
       "keyid" : "5ee2ad6922b9fa95074aa3ee14976451a83ff1c9bbaabd40df168ccf61c2178c",
       "method" : "rsassa-pss-sha256",
-      "sig" : "tXjGUcoBBXw1Dh/dMkNJxKYC4Uq4g9yf4U18BEHNB5E//esZzi1syqzUE2ovo8XKvi49Op/Gm7NpTTMI12o02KlyYN9iXiVmfqYC0goT4gtf6Ov9IL1lC6ZzyM4A2LxhrobflJCFwlW4VsATfpUDysdRde0fdNcJ3Y0QJ7mso7WpJOJcysl702TDiVQnGenhm4N8uP2oQUAkhHFXBJcuigVQJ2ErlgCkbGGBTIoBqbTqV1JrkgpnJb6K9JD6XPWOOf8bmRK7ykjEsKs2cvmIv8JraFG+PoL+A9OBWaV7JI3loaZYyRcTyxx9bC8Ln89URxeb+zIg90J8azDmBizfQQ=="
+      "sig" : "FeqSrx2FLG4UtV42NiXXpN0y17eO3BE0/K37w9UBm7O4aKNEvPV2duWbcyKviiOPf9QoE+my9YD9dkn9T3cqKRotbk88BCU1IAwFtHunSaVa1GRuHVtXZpPB/df0A9eIC7MKFUgw7FLOQVyEYuvhTVJ9sM8xxSwhfBnZ6LAl0uVbwyfKxkzl6JAFnL5BtV+8egI3X6oSZl1Uj2hcf8jG5xUJzQfSLDAuMh4A4nXXU+2lNyTwuNYiXvjpkHVcJZPnQ+875y2gYEMzqEn89YaqF7xcweW58EPiHnLbu3yYdjguNQV6RS3yoKirYWpGECW2gp4uJ1pwL7WHUhHn13n+uQ=="
     }
   ],
   "signed" : {
     "_type" : "Targets",
-    "expires" : "2024-02-01T00:00:30Z",
+    "expires" : "2024-02-11T05:47:13Z",
     "targets" : {
-      "extern/commontorizon/eros-os-1" : {
+      "extern/commontorizon/6.5.0-intel-corei7-64-Common-6.5.0" : {
         "custom" : {
           "cliUploaded" : false,
-          "commitBody" : "",
-          "commitSubject" : "eros-os",
-          "createdAt" : "2024-01-02T00:08:28Z",
+          "createdAt" : "2024-01-11T05:43:10Z",
           "hardwareIds" : [
-            "verdin-imx8mp"
+            "intel-corei7-64"
           ],
-          "name" : "eros-os",
-          "ostreeMetadata" : {
-            "oe.arch" : "aarch64",
-            "oe.distro" : "torizon",
-            "oe.distro-codename" : "kirkstone",
-            "oe.image" : "torizon-core-docker",
-            "oe.kernel-source" : [
-              "git.toradex.com/linux-toradex.git",
-              "toradex_5.15-2.2.x-imx",
-              "6f8fd49366db9"
-            ],
-            "oe.machine" : "verdin-imx8mp",
-            "oe.package-arch" : "cortexa53",
-            "oe.tdx-build-purpose" : "nightly",
-            "oe.tdx-major" : "6",
-            "ostree.ref-binding" : [
-              "tcb-custom-eros-os"
-            ],
-            "version" : "6.5.0-devel-20231230+build.469-tcbuilder.20240101232954"
-          },
+          "name" : "6.5.0-intel-corei7-64-Common",
           "targetFormat" : "OSTREE",
-          "updatedAt" : "2024-01-02T00:08:28Z",
+          "updatedAt" : "2024-01-11T05:43:10Z",
           "uri" : "https://commontorizon.github.io/ostree/",
-          "version" : "1"
+          "version" : "6.5.0"
         },
         "hashes" : {
-          "sha256" : "f2bb5b040407b0018b1c405e48a2be173bf198b5755568b589c509155ad81537"
+          "sha256" : "4012a2cccb2181304ffbae6713d7090651d9c70d794ab88f09f906ccbe5e3a90"
         },
         "length" : 0
       }
     },
-    "version" : 242
+    "version" : 249
   }
 }
