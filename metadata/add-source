@@ -1,0 +1,25 @@
+{
+    "keys":
+    [
+        {"keytype":"RSA","keyval":{"public":"-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1Enrta0EKafOtFpu+FGo\nG2CHm/3xRvdLX2dFFCvTevTY8RujRpQ+SwFV8RbibpyM6UvVSGz1pfNce+uYl2i8\nhW9s0DtV1oBOPe4K4pbWDZ7HC/yAI+1UULYo70dGFgNWvm1nzrl7R9F5u/uVkujP\nnGPNMBG8mdlBG+jTFoCNgO0BsY53QJoJY5AIXKSW0PEEOHgqzkDWgVwWA66qJop+\nMb1gii+N0OAoe9lFWw7AHLo33MNWQa1cY+acIKCivmgzt2YvKv8zFv/QPMRAW72H\nTSBDDZ525lP4IdXf5mrbVRytBPLX8cagJ23p7hLG1er0TzAP0h/+yog/oJlrcgZU\njwIDAQAB\n-----END PUBLIC KEY-----\n"}}
+    ],
+    "delegationMetadata":
+    {
+        "name": "extern-commontorizon",
+        "keyids":
+        [
+            "5ee2ad6922b9fa95074aa3ee14976451a83ff1c9bbaabd40df168ccf61c2178c"
+        ],
+        "paths":
+        [
+            "extern/commontorizon/*"
+        ],
+        "threshold": 1,
+        "terminating": true
+    },
+    "fetchUrl":
+    {
+        "uri": "https://commontorizon.github.io/metadata/extern-commontorizon.json",
+        "delegationName": "extern-commontorizon"
+    }
+}
