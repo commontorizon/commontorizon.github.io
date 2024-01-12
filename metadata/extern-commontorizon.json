@@ -3,32 +3,50 @@
     {
       "keyid" : "5ee2ad6922b9fa95074aa3ee14976451a83ff1c9bbaabd40df168ccf61c2178c",
       "method" : "rsassa-pss-sha256",
-      "sig" : "FeqSrx2FLG4UtV42NiXXpN0y17eO3BE0/K37w9UBm7O4aKNEvPV2duWbcyKviiOPf9QoE+my9YD9dkn9T3cqKRotbk88BCU1IAwFtHunSaVa1GRuHVtXZpPB/df0A9eIC7MKFUgw7FLOQVyEYuvhTVJ9sM8xxSwhfBnZ6LAl0uVbwyfKxkzl6JAFnL5BtV+8egI3X6oSZl1Uj2hcf8jG5xUJzQfSLDAuMh4A4nXXU+2lNyTwuNYiXvjpkHVcJZPnQ+875y2gYEMzqEn89YaqF7xcweW58EPiHnLbu3yYdjguNQV6RS3yoKirYWpGECW2gp4uJ1pwL7WHUhHn13n+uQ=="
+      "sig" : "crtD9wIkVU+ifxmzdS4k5bSIdu9JM2NhiumDV4wOGtjU3AYYt6nkggk68hkx6zkK29Id7fVRSWqMYVzaZWrLGlEzLCzMw+NH+ocOthEucnhk/wzMM3Z9FpwFFVxvV7zMVNyn0e7DDJrZ6+2lS1QxKVdCf4/KskP6RztpBxqfSWaf1vzSdwBSY0FBHHiAWXBurazi5nkapd750Oo5II4Os3VeMdTozwRe/vtxeEVwvb3WjgBB51YAE/gU0UASUkeHAyoFKxHQqKQ5jarVPx2CRgdp5u62erWcpfsLnBymqjO3TfwToe0BssetQqra/uoGsUaw6Jga2kk/NaPKpCNldQ=="
     }
   ],
   "signed" : {
     "_type" : "Targets",
-    "expires" : "2024-02-11T05:47:13Z",
+    "expires" : "2024-02-12T01:51:17Z",
     "targets" : {
-      "extern/commontorizon/6.5.0-intel-corei7-64-Common-6.5.0" : {
+      "extern/commontorizon/6.6.0-common-intel-corei7-64-6.6.0-common" : {
         "custom" : {
           "cliUploaded" : false,
-          "createdAt" : "2024-01-11T05:43:10Z",
+          "createdAt" : "2024-01-12T00:52:23Z",
           "hardwareIds" : [
             "intel-corei7-64"
           ],
-          "name" : "6.5.0-intel-corei7-64-Common",
+          "name" : "6.6.0-common-intel-corei7-64",
           "targetFormat" : "OSTREE",
-          "updatedAt" : "2024-01-11T05:43:10Z",
+          "updatedAt" : "2024-01-12T00:52:23Z",
           "uri" : "https://commontorizon.github.io/ostree/",
-          "version" : "6.5.0"
+          "version" : "6.6.0-common"
         },
         "hashes" : {
-          "sha256" : "4012a2cccb2181304ffbae6713d7090651d9c70d794ab88f09f906ccbe5e3a90"
+          "sha256" : "42653465901b2e9040f209dfe9d4bf8ca3c75e270c3d30a304258b58ffe9c92a"
+        },
+        "length" : 0
+      },
+      "extern/commontorizon/6.6.0-common-qemux86-64-6.6.0-common" : {
+        "custom" : {
+          "cliUploaded" : false,
+          "createdAt" : "2024-01-12T01:51:16Z",
+          "hardwareIds" : [
+            "qemux86-64"
+          ],
+          "name" : "6.6.0-common-qemux86-64",
+          "targetFormat" : "OSTREE",
+          "updatedAt" : "2024-01-12T01:51:16Z",
+          "uri" : "https://commontorizon.github.io/ostree/",
+          "version" : "6.6.0-common"
+        },
+        "hashes" : {
+          "sha256" : "c7fc3919b300a18f5de3180e4d63757df96fd7617a7025375aa3b606ac16efe7"
         },
         "length" : 0
       }
     },
-    "version" : 249
+    "version" : 257
   }
 }
